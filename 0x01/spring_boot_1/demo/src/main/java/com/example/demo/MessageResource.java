@@ -23,6 +23,6 @@ public class MessageResource {
             return "USUÁRIO E SENHA INVÁLIDOS";
         }
 
-        return "LOGIN EFETUADO COM SUCESSO";
+        return "LOGIN EFETUADO COM SUCESSO !!!";
     }
 }
