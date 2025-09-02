@@ -4,11 +4,11 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/messages")
-public class MessageResources {
+public class MessageResource {
 
     @GetMapping("/simpleMessageWelcome")
     public String simpleMessageWelcome() {
-        return "BEM VINDO A AULA DE MICROSSERVIÇO USANDO SPRING BOOT !!!";
+        return "BEM VINDO A AULA DE MICROSERVIÇO USANDO SPRING BOOT !!!";
     }
 
     @GetMapping("/login")
@@ -23,6 +23,6 @@ public class MessageResources {
             return "USUÁRIO E SENHA INVÁLIDOS";
         }
 
-        return "LOGIN EFETUADO COM SUCESSO !!!";
+        return "LOGIN EFETUADO COM SUCESSO";
     }
 }
