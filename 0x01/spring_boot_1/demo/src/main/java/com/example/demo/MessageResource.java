@@ -15,7 +15,7 @@ public class MessageResource {
     public String login(@RequestParam(required = false) String user,
                         @RequestParam(required = false) String password) {
 
-        if (user == null || password == null || user.isBlank() || password.isBlank()) {
+        if (user == null || password == null) {
             return "USUÁRIO E SENHA NÃO INFORMADOS";
         }
 
@@ -23,6 +23,6 @@ public class MessageResource {
             return "USUÁRIO E SENHA INVÁLIDOS";
         }
 
-        return "LOGIN EFETUADO COM SUCESSO !!!";
+        return "LOGIN EFETUADO COM SUCESSO";
     }
 }
