@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="demo (1) (com.example.apisong)" />
         <module name="demo" />
       </profile>
       <profile name="Annotation profile for demo2" enabled="true">
@@ -22,6 +23,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
+      <module name="demo (1) (com.example.apisong)" options="-parameters" />
       <module name="demo2" options="-parameters" />
     </option>
   </component>
