@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo (1) (com.example.apisong)" />
+        <module name="demo (2) (com.example.demo)" />
         <module name="demo" />
         <module name="demo (1) (com.example.demo)" />
       </profile>
@@ -30,6 +31,7 @@
       <module name="demo (1) (com.example.apisong)" options="-parameters" />
       <module name="demo (1) (com.example.demo)" options="-parameters" />
       <module name="demo (2) (com.example.apisong)" options="-parameters" />
+      <module name="demo (2) (com.example.demo)" options="-parameters" />
       <module name="demo2" options="-parameters" />
     </option>
   </component>
