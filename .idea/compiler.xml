@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="demo (1) (com.example.apisong)" />
         <module name="demo" />
+        <module name="demo (1) (com.example.demo)" />
       </profile>
       <profile name="Annotation profile for demo2" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -19,11 +20,16 @@
         <module name="demo2" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo (2) (com.example.apisong)" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
       <module name="demo (1) (com.example.apisong)" options="-parameters" />
+      <module name="demo (1) (com.example.demo)" options="-parameters" />
+      <module name="demo (2) (com.example.apisong)" options="-parameters" />
       <module name="demo2" options="-parameters" />
     </option>
   </component>
