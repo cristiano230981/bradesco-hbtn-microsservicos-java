@@ -65,12 +65,6 @@
 
 	<build>
 		<sourceDirectory>${project.basedir}/com/techCamps/demo</sourceDirectory>
-		<resources>
-			<resource>
-				<directory>${project.basedir}</directory>
-			</resource>
-		</resources>
-
 		<plugins>
 			<!-- Plugin do compilador com suporte ao Lombok -->
 			<plugin>
