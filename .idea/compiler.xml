@@ -20,6 +20,15 @@
         </processorPath>
         <module name="demo2" />
       </profile>
+      <profile name="Annotation profile for demo" enabled="true">
+        <sourceOutputDir name="demo/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="demo/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+        </processorPath>
+        <module name="demo (1) (com.techCamps)" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo (2) (com.example.apisong)" target="17" />
@@ -30,6 +39,7 @@
       <module name="demo" options="-parameters" />
       <module name="demo (1) (com.example.apisong)" options="-parameters" />
       <module name="demo (1) (com.example.demo)" options="-parameters" />
+      <module name="demo (1) (com.techCamps)" options="-parameters" />
       <module name="demo (2) (com.example.apisong)" options="-parameters" />
       <module name="demo (2) (com.example.demo)" options="-parameters" />
       <module name="demo2" options="-parameters" />
