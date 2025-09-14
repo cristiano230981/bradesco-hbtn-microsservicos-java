@@ -62,7 +62,7 @@
 		<sourceDirectory>./com</sourceDirectory>
 		<resources>
 			<resource>
-				<directory>./resources</directory>
+				<directory>./</directory>
 			</resource>
 		</resources>
 
