@@ -6,33 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="demo (1) (com.example.apisong)" />
-        <module name="demo (2) (com.example.demo)" />
-        <module name="demo" />
-        <module name="demo (1) (com.example.demo)" />
         <module name="jpa-h2-demo" />
-      </profile>
-      <profile name="Annotation profile for demo2" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
-        </processorPath>
-        <module name="demo2" />
-      </profile>
-      <profile name="Annotation profile for demo" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.40/lombok-1.18.40.jar" />
-        </processorPath>
-        <module name="demo (1) (com.techCamps)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="demo" target="17" />
+      <module name="demo (1) (com.example.apisong)" target="17" />
+      <module name="demo (1) (com.example.demo)" target="17" />
+      <module name="demo (1) (com.techCamps)" target="17" />
       <module name="demo (2) (com.example.apisong)" target="17" />
+      <module name="demo (2) (com.example.demo)" target="17" />
+      <module name="demo2" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
