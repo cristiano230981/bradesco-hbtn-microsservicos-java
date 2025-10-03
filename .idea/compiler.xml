@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="jpa-h2-demo (1)" />
         <module name="jpa-h2-demo" />
       </profile>
     </annotationProcessing>
@@ -29,6 +30,7 @@
       <module name="demo (2) (com.example.demo)" options="-parameters" />
       <module name="demo2" options="-parameters" />
       <module name="jpa-h2-demo" options="-parameters" />
+      <module name="jpa-h2-demo (1)" options="-parameters" />
     </option>
   </component>
 </project>
