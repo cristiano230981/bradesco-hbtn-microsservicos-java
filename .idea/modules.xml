@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/0x07/api-rest-calculator/CalculatorAPI.iml" filepath="$PROJECT_DIR$/0x07/api-rest-calculator/CalculatorAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/bradesco-hbtn-microsservicos-java.iml" filepath="$PROJECT_DIR$/.idea/bradesco-hbtn-microsservicos-java.iml" />
     </modules>
   </component>

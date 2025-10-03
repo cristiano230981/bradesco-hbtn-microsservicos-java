@@ -7,8 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jpa-h2-demo (1)" />
-        <module name="UserAPI" />
         <module name="jpa-h2-demo" />
+        <module name="CalculatorAPI" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,10 +19,12 @@
       <module name="demo (2) (com.example.apisong)" target="17" />
       <module name="demo (2) (com.example.demo)" target="17" />
       <module name="demo2" target="17" />
+      <module name="UserAPI" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CalculatorAPI" options="-parameters" />
       <module name="UserAPI" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="demo (1) (com.example.apisong)" options="-parameters" />
