@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jpa-h2-demo (1)" />
+        <module name="UserAPI" />
         <module name="jpa-h2-demo" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="UserAPI" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="demo (1) (com.example.apisong)" options="-parameters" />
       <module name="demo (1) (com.example.demo)" options="-parameters" />

@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/0x03/criando_spring_boot_JPA/demo/pom.xml" />
         <option value="$PROJECT_DIR$/0x04/entities_JPA+H2_database/pom.xml" />
         <option value="$PROJECT_DIR$/0x04/endpoints_JPA+H2_database/pom.xml" />
+        <option value="$PROJECT_DIR$/06/api-rest-userController/demo/pom.xml" />
       </list>
     </option>
   </component>
